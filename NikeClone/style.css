@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    margin-left: 2rem;
+}
+.navbar-mid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.navbar-mid li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.navbar-mid li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar-icon{
+    display: flex;
+}
+.navbar span{
+    margin-right: 2.5rem;
+}
+.search-input{
+    height: 1.5rem;
+    border-radius: 15px;
+}
+.search-icon{
+    display: flex;
+    justify-content: start;
+}
+.icons-right{
+    margin-right: 20px;
+}
+.main-butt{
+    position: relative;
+    right: 30px;
+}
+
+/** Nav bar Ends **/
+
+.poster-1{
+    width: 100%;
+}
+.poster-2-box{
+    /* padding: 4.4rem 3rem 0 3rem; */
+    padding: 5% 3% 0 3%;
+}
+.poster-2{
+    width: 100%;
+
+}
+.poster-text h1{
+    text-align: center;
+    font-size: 88px;
+    font-family: 'Anton', sans-serif; /* Priority */
+    margin: 10px 0 5px 0;
+}
+.poster-text p{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.poster-b-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    opacity: 1;
+}
+.butt:hover{
+    opacity: 0.6;
+}
+
+/** Poster Ends **/
+
+.featured-box{
+    padding: 60px 60px 10px 60px;
+}
+.featured-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.f-item img{
+    height: 40rem;
+    width: auto;
+    margin-right: 2rem;
+}
+@media (max-width: 610px) {
+    .f-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+.f-item p{
+    margin-top: 1.5rem 0;
+    text-align: start;
+}
+
+/** Featured Box Ends **/
+
+.gear-up-box{
+    padding: 60px 60px 10px 60px;
+}
+.images-2{
+    display: flex;
+    flex-direction: row;
+}
+.gear-up-item img{
+    width: 49rem;
+    height: 48.625rem;
+    margin-right: 1rem;
+}
+@media (max-width: 610px) {
+    .gear-up-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+
+/** Gear Up Box Ends **/
+
+.popular-box{
+    padding: 60px 60px 10px 60px;
+}
+.popular-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.p-item img{
+    height: 40rem;
+    width: auto;
+    margin-right: 2rem;
+}
+@media (max-width: 610px) {
+    .p-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+.p-item p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+}
+
+.miss-box{
+    padding: 60px 60px 10px 60px;
+}
+.miss-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    justify-content: center;
+}
+.m-captions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.m-captions p{
+    text-align: center;
+}
+.m-captions h1{
+    text-align: center;
+}
+
+
+.iconic-box{
+    padding: 60px 60px 10px 60px;
+}
+.iconic-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.i-item img{
+    height: 25rem;
+    width: auto;
+    margin-right: 2rem;
+}
+@media (max-width: 610px) {
+    .i-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+/** .i-item p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+} **/
+
+.sport-box{
+    padding: 60px 60px 10px 60px;
+}
+.sport-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.spo-item img{
+    height: 40rem;
+    width: auto;
+    margin-right: 2rem;
+}
+@media (max-width: 610px) {
+    .spo-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+.spo-item p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+}
+#item-price{
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+#item-description{
+    width: 85%;
+    margin-bottom: 20px;
+    font-size: small;
+    margin-top: 5px;
+}
+#item-shop-now{
+    width: 85%;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.ess-box{
+    padding: 60px 60px 10px 60px;
+}
+.ess-items{
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    justify-content: space-between;
+}
+.ess-item img{
+    height: 37rem;
+    width: auto;
+    margin-right: 2rem;
+}
+@media (max-width: 610px) {
+    .ess-item img{
+        height: 20rem;
+        width: auto;
+        margin-right: 2rem;
+    }
+}
+.ess-item p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+}
+
+.pre-footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem 18rem 2.5rem 18rem;
+}
+.pre-footer-names{
+    font-size: medium;
+    font-weight: 700;
+}
+.inside-footer-ul{
+    margin: 0.75rem 0 0 0;
+    list-style-type: none;
+    padding: 0;
+}
+.inside-footer-ul li{
+    font-size: small;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 2.5rem 2.5rem 2.5rem 8rem;
+}
+.footer-names{
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 8rem;
+}
+.inside-footer{
+    margin-top: 0.75rem;
+    list-style-type: none;
+    padding: 0;
+    
+
+}
+.inside-footer li{
+    font-size: small;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    
+}
+
+.footer-icon{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 5rem;
+    width: 15rem;
+    left: 85rem;
+    margin-top: 2rem;
+}
+
+.f-icons{
+    margin-left: 1rem;
+    font-size: 30px;
+}
+
+.footer-copyy{
+    background-color: black;
+    color: white;
+}
+.footer-copy{
+    display: flex;
+    margin: 0 0 1rem 10rem;
+}
+.footer-copy i{
+    margin-right: 0.85rem;
+}
